@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="com.example.healthManage.mapper.UserMapper">
+    <insert id="insert">
+        insert into health_manage.user(id, login_id, username, password, email, create_time, update_time)
+        values(#{id}, #{loginId}, #{username}, #{password}, #{email}, #{createTime}, #{updateTime})
+    </insert>
+    <update id="updateByLoginId">
+        update health_manage.user set username = #{username}, password = #{password}, email = #{email} where login_id = #{loginId}
+    </update>
+    <delete id="deleteById">
+        delete from health_manage.user where id = #{id}
+    </delete>
+    <select id="selectById" resultType="com.example.healthManage.entity.User">
+        select id, login_id, username, password, email, create_time, update_time from health_manage.user where id = #{id}
+    </select>
+    <select id="selectByLoginId" resultType="com.example.healthManage.entity.User">
+        select id, login_id, username, password, email, create_time, update_time from health_manage.user where login_id = #{loginId}
+    </select>
+</mapper>

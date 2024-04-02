@@ -1,0 +1,11 @@
+spring:
+  application:
+    name: health-manage
+  datasource:
+    url: jdbc:mysql://localhost:3306?serverTimezone=GMT%2B8
+    username: root
+    password: gef13916088260
+server:
+  port: 8080
+mybatis:
+  mapper-locations: classpath:mapper/*Mapper.xml
