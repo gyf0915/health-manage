@@ -1,0 +1,11 @@
+{
+  "navigationBarTitleText": "前端铺子",
+  "navigationStyle": "custom",
+  "usingComponents": {
+    "index": "/pages/index/index",
+    "search": "/pages/index/search",
+    "cases": "/pages/index/main",
+    "news": "/pages/index/news",
+    "me": "/pages/index/me"
+  }
+}
