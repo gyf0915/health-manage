@@ -1,4 +1,5 @@
 <script>
+	import Vue from 'vue'
 	export default {
 		onLaunch: function() {
 			uni.getSystemInfo({
@@ -27,7 +28,7 @@
 
 <style>
 	/*每个页面公共css */
+	/* @import "uview-ui/index.scss"; */
 	@import "/pages/colorui/main.css";
 	@import "/pages/colorui/icon.css";
-	/* @import "uview-ui/index.scss"; */
 </style>

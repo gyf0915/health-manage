@@ -24,7 +24,8 @@ CREATE TABLE health_manage.diet(
 CREATE TABLE health_manage.exercise(
     id int not null AUTO_INCREMENT primary key comment '主键ID',
     login_id varchar(100) comment '用户名',
-    exercise_type varchar(100) comment '运动类型: breakfast-跑步, lunch-骑行, dinner-步行',
+    exercise_type varchar(100) comment '运动类型: running-跑步, cycling-骑行, walk-步行',
+    exercise_date varchar(200) comment '运动日期',
     duration int comment '持续时间，单位：秒',
     consume_heat int comment '消耗热量，单位：卡路里'
 );
@@ -33,6 +34,7 @@ CREATE TABLE health_manage.exercise(
 CREATE TABLE health_manage.physical_examination_report(
     id int not null AUTO_INCREMENT primary key comment '主键ID',
     login_id varchar(100) comment '用户名',
+    report_date varchar(200) comment '报告日期',
     report_content varchar(500) comment '报告内容',
     health_analysis varchar(500) comment '健康分析',
     suggestion varchar(500) comment '健康建议'

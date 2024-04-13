@@ -15,5 +15,11 @@
   "bugs": {
     "url": "https://github.com/gyf0915/health-manage/issues"
   },
-  "homepage": "https://github.com/gyf0915/health-manage#readme"
+  "homepage": "https://github.com/gyf0915/health-manage#readme",
+  "dependencies": {
+    "uview-ui": "^1.8.8"
+  },
+  "devDependencies": {
+    "sass-loader": "^14.1.1"
+  }
 }

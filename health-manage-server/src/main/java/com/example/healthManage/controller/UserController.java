@@ -44,4 +44,10 @@ public class UserController {
         log.info("获取用户信息，loginId为：{}", loginId);
         return RestResult.T(userService.detail(loginId));
     }
+
+    @PostMapping("/loginByWX")
+    public RestResult<?> loginByWX(@PathVariable String loginId) {
+        log.info("获取用户信息，loginId为：{}", loginId);
+        return RestResult.T(userService.detail(loginId));
+    }
 }

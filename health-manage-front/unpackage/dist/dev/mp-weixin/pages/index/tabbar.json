@@ -3,9 +3,10 @@
   "navigationStyle": "custom",
   "usingComponents": {
     "index": "/pages/index/index",
+    "diet-manage": "/pages/index/dietManage/index",
+    "user-center": "/pages/index/userCenter/index",
     "search": "/pages/index/search",
     "cases": "/pages/index/main",
-    "news": "/pages/index/news",
-    "me": "/pages/index/me"
+    "news": "/pages/index/news"
   }
 }

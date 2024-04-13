@@ -108,7 +108,7 @@
 			};
 		},
 		mounted() {
-			this.getData();
+			// this.getData();
 		},
 		filters: {
 			formatDate(value) {

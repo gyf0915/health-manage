@@ -1,15 +1,9 @@
 
-// const baseUrl = 'https://cdn.zhoukaiwen.com/';
-// const baseUrl = 'https://www.zhoukaiwen.com/';
 let baseUrl;
 
 // 不带token请求
 const httpRequest = (opts, data) => {
-	if(opts.type == 2){
-		baseUrl = 'https://www.zhoukaiwen.com/';
-	}else{
-		baseUrl = 'https://api.zhoukaiwen.com/';
-	}
+	baseUrl = 'http://localhost:8080/';
 	uni.onNetworkStatusChange(function(res) {
 		if (!res.isConnected) {
 			uni.showToast({
@@ -36,7 +30,7 @@ const httpRequest = (opts, data) => {
 	let promise = new Promise(function(resolve, reject) {
 		uni.request(httpDefaultOpts).then(
 			(res) => {
-				resolve(res[1])
+				resolve(res.data)
 			}
 		).catch(
 			(response) => {

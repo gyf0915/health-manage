@@ -26,7 +26,9 @@
 
 
 
+
 /*每个页面公共css */
+/* @import "uview-ui/index.scss"; */
 /*
   ColorUi for uniApp  v2.1.6 | by 文晓港 2019-05-31 10:44:24
   仅供学习交流，如作它用所承受的法律责任一概与作者无关  
@@ -4304,5 +4306,4 @@ scroll-view.cu-steps .cu-item {
 .cuIcon-btn:before {
 	content: "\e601";
 }
-/* @import "uview-ui/index.scss"; */
 

@@ -1,14 +1,19 @@
 {
   "pages": [
     "pages/index/tabbar",
-    "pages/index/index"
+    "pages/index/index",
+    "pages/index/dietManage/index",
+    "pages/index/sportsManage/index",
+    "pages/index/peManage/index"
   ],
   "subPackages": [],
   "window": {
     "navigationBarTextStyle": "black",
-    "navigationBarTitleText": "uni-app",
+    "navigationBarTitleText": "个人健康管理系统",
     "navigationBarBackgroundColor": "#F8F8F8",
     "backgroundColor": "#F8F8F8"
   },
-  "usingComponents": {}
+  "usingComponents": {
+    "cu-custom": "/pages/colorui/components/cu-custom"
+  }
 }

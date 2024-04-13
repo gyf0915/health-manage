@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="com.example.healthManage.mapper.DietMapper">
+    <insert id="insert">
+        insert into health_manage.diet(id, login_id, diet_date, diet_type, specific_plan, diet_heat)
+        values(#{id}, #{loginId}, #{dietDate}, #{dietType}, #{specificPlan}, #{dietHeat})
+    </insert>
+    <update id="update">
+        update health_manage.diet set diet_date = #{dietDate}, diet_type = #{dietType}, specific_plan = #{specificPlan}, diet_heat = #{dietHeat} where id = #{id}
+    </update>
+    <delete id="deleteById">
+        delete from health_manage.diet where id = #{id}
+    </delete>
+    <select id="selectById" resultType="com.example.healthManage.entity.Diet">
+        select id, diet_date, diet_type, specific_plan, diet_heat from health_manage.diet where id = #{id}
+    </select>
+    <select id="selectByLoginId" resultType="com.example.healthManage.entity.Diet">
+        select id, diet_date, diet_type, specific_plan, diet_heat from health_manage.diet where login_id = #{loginId}
+    </select>
+    <select id="list" resultType="com.example.healthManage.entity.Diet">
+        select id, login_id as loginId, diet_date as dietDate, specific_plan as specificPlan, diet_heat as dietHeat from health_manage.diet where login_id = #{loginId}
+    </select>
+</mapper>

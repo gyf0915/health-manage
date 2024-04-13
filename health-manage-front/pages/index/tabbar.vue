@@ -1,10 +1,11 @@
 <template>
 	<view>
 		<index @ShowNews="ShowNews" v-if="PageCur=='index'"></index>
+		<diet-manage v-if="PageCur=='dietManage'"></diet-manage>
 		<search v-if="PageCur=='search'"></search>
 		<cases v-if="PageCur=='cases'"></cases>
 		<news v-if="PageCur=='news'"></news>
-		<me v-if="PageCur=='me'"></me>
+		<user-center v-if="PageCur=='userCenter'"></user-center> >
 
 		<view class="box">
 			<view class="cu-bar tabbar bg-white shadow foot">
@@ -22,12 +23,12 @@
 						<image v-if="PageCur=='search'" src="../../static/tabBar/shop_cur.png"></image>
 						<image v-if="PageCur != 'search'" src="../../static/tabBar/shop.png"></image>
 					</view>
-					<view :class="PageCur=='search'?'color_main':'text-gray'">会员专区</view>
+					<view :class="PageCur=='search'?'color_main':'text-gray'">运动管理</view>
 				</view>
 
-				<view @click="NavChange" class="action text-gray add-action" data-cur="cases">
+				<view @click="NavChange" class="action text-gray add-action" data-cur="dietManage">
 					<image class="logo_btn" mode="widthFix" src="../../static/logo.png"></image>
-					<view :class="PageCur=='cases'?'color_main':'text-gray'">组件模板</view>
+					<view :class="PageCur=='dietManage'?'color_main':'text-gray'">饮食管理</view>
 				</view>
 
 				<view class="action" @click="NavChange" data-cur="news">
@@ -36,15 +37,15 @@
 						<image v-if="PageCur=='news'" src="../../static/tabBar/order_cur.png"></image>
 						<image v-if="PageCur != 'news'" src="../../static/tabBar/order.png"></image>
 					</view>
-					<view :class="PageCur=='news'?'color_main':'text-gray'">文章资讯</view>
+					<view :class="PageCur=='news'?'color_main':'text-gray'">体检管理</view>
 				</view>
 
-				<view class="action" @click="NavChange" data-cur="me">
+				<view class="action" @click="NavChange" data-cur="userCenter">
 					<view class='cuIcon-cu-image'>
-						<image v-if="PageCur=='me'" src="../../static/tabBar/me_cur.png"></image>
-						<image v-if="PageCur != 'me'" src="../../static/tabBar/me.png"></image>
+						<image v-if="PageCur=='userCenter'" src="../../static/tabBar/me_cur.png"></image>
+						<image v-if="PageCur != 'userCenter'" src="../../static/tabBar/me.png"></image>
 					</view>
-					<view :class="PageCur=='me'?'color_main':'text-gray'">个人中心</view>
+					<view :class="PageCur=='userCenter'?'color_main':'text-gray'">个人中心</view>
 				</view>
 
 			</view>
@@ -54,19 +55,22 @@
 </template>
 
 <script>
+	import dietManage from './dietManage/index.vue'
+	import userCenter from "./userCenter/index.vue";	//个人中心
 	import request from '@/common/request.js';
 	import index from "./index.vue";	//首页
 	import search from "./search.vue";	//技术视频
 	import cases from "./main.vue";	//宅家学
 	import news from "./news.vue";	//资讯
-	import me from "./me.vue";	//个人中心
+	
 	export default {
 		components: {
 			index,
+			dietManage,
+			userCenter,
 			search,
 			cases,
-			news,
-			me
+			news
 		},
 		data() {
 			return {
@@ -104,7 +108,7 @@
 			}
 		},
 		onShow() {
-			this.getData();
+			// this.getData();
 		},
 		methods: {
 			getData() {
@@ -142,7 +146,7 @@
 					// document.title = '宅家学'
 				} else if (this.PageCur == 'news') {
 					// document.title = '文章资讯'
-				} else if (this.PageCur == 'me') {
+				} else if (this.PageCur == 'userCenter') {
 					// document.title = '个人中心'
 				}
 
