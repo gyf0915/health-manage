@@ -1,12 +1,11 @@
 {
-  "navigationBarTitleText": "前端铺子",
+  "navigationBarTitleText": "个人健康管理系统",
   "navigationStyle": "custom",
   "usingComponents": {
     "index": "/pages/index/index",
     "diet-manage": "/pages/index/dietManage/index",
     "user-center": "/pages/index/userCenter/index",
-    "search": "/pages/index/search",
-    "cases": "/pages/index/main",
-    "news": "/pages/index/news"
+    "sports-manage": "/pages/index/sportsManage/index",
+    "pe-manage": "/pages/index/peManage/index"
   }
 }

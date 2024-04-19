@@ -1,0 +1,11 @@
+{
+  "navigationBarTitleText": "用户中心",
+  "usingComponents": {
+    "u-popup": "/uview-ui/components/u-popup/u-popup",
+    "u-form": "/uview-ui/components/u-form/u-form",
+    "u-form-item": "/uview-ui/components/u-form-item/u-form-item",
+    "u-input": "/uview-ui/components/u-input/u-input",
+    "u-button": "/uview-ui/components/u-button/u-button",
+    "weixin-login": "/pages/index/userCenter/wxLogin"
+  }
+}

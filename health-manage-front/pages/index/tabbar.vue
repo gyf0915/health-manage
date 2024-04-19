@@ -1,11 +1,10 @@
 <template>
 	<view>
 		<index @ShowNews="ShowNews" v-if="PageCur=='index'"></index>
-		<diet-manage v-if="PageCur=='dietManage'"></diet-manage>
-		<search v-if="PageCur=='search'"></search>
-		<cases v-if="PageCur=='cases'"></cases>
-		<news v-if="PageCur=='news'"></news>
-		<user-center v-if="PageCur=='userCenter'"></user-center> >
+		<diet-manage v-if="PageCur=='dietManage'" mode="tab"></diet-manage>
+		<sports-manage v-if="PageCur=='sportsManage'" mode="tab"></sports-manage>
+		<pe-manage v-if="PageCur=='peManage'" mode="tab"></pe-manage>
+		<user-center v-if="PageCur=='userCenter'" mode="tab"></user-center> >
 
 		<view class="box">
 			<view class="cu-bar tabbar bg-white shadow foot">
@@ -17,27 +16,33 @@
 					<view :class="PageCur=='index'?'color_main':'text-gray'">首页</view>
 				</view>
 
-				<view class="action" @click="NavChange" data-cur="search">
+				<view class="action" @click="NavChange" data-cur="sportsManage">
 					<view class='cuIcon-cu-image'>
-						<view class="cu-tag badge"><!-- 红点 --></view>
-						<image v-if="PageCur=='search'" src="../../static/tabBar/shop_cur.png"></image>
-						<image v-if="PageCur != 'search'" src="../../static/tabBar/shop.png"></image>
+						<image v-if="PageCur=='sportsManage'" src="../../static/tabBar/shop_cur.png"></image>
+						<image v-if="PageCur != 'sportsManage'" src="../../static/tabBar/shop.png"></image>
 					</view>
-					<view :class="PageCur=='search'?'color_main':'text-gray'">运动管理</view>
+					<view :class="PageCur=='sportsManage'?'color_main':'text-gray'">运动管理</view>
 				</view>
 
-				<view @click="NavChange" class="action text-gray add-action" data-cur="dietManage">
+				<!-- <view @click="NavChange" class="action text-gray add-action" data-cur="dietManage">
 					<image class="logo_btn" mode="widthFix" src="../../static/logo.png"></image>
+					<view :class="PageCur=='dietManage'?'color_main':'text-gray'">饮食管理</view>
+				</view> -->
+				
+				<view class="action" @click="NavChange" data-cur="dietManage">
+					<view class='cuIcon-cu-image'>
+						<image v-if="PageCur=='dietManage'" src="../../static/tabBar/shop_cur.png"></image>
+						<image v-if="PageCur != 'dietManage'" src="../../static/tabBar/shop.png"></image>
+					</view>
 					<view :class="PageCur=='dietManage'?'color_main':'text-gray'">饮食管理</view>
 				</view>
 
-				<view class="action" @click="NavChange" data-cur="news">
+				<view class="action" @click="NavChange" data-cur="peManage">
 					<view class='cuIcon-cu-image'>
-						<view class="cu-tag badge">{{message}}</view>
-						<image v-if="PageCur=='news'" src="../../static/tabBar/order_cur.png"></image>
-						<image v-if="PageCur != 'news'" src="../../static/tabBar/order.png"></image>
+						<image v-if="PageCur=='peManage'" src="../../static/tabBar/order_cur.png"></image>
+						<image v-if="PageCur != 'peManage'" src="../../static/tabBar/order.png"></image>
 					</view>
-					<view :class="PageCur=='news'?'color_main':'text-gray'">体检管理</view>
+					<view :class="PageCur=='peManage'?'color_main':'text-gray'">体检管理</view>
 				</view>
 
 				<view class="action" @click="NavChange" data-cur="userCenter">
@@ -57,20 +62,18 @@
 <script>
 	import dietManage from './dietManage/index.vue'
 	import userCenter from "./userCenter/index.vue";	//个人中心
+	import peManage from "./peManage/index.vue";
+	import sportsManage from "./sportsManage/index.vue";
 	import request from '@/common/request.js';
 	import index from "./index.vue";	//首页
-	import search from "./search.vue";	//技术视频
-	import cases from "./main.vue";	//宅家学
-	import news from "./news.vue";	//资讯
 	
 	export default {
 		components: {
 			index,
 			dietManage,
 			userCenter,
-			search,
-			cases,
-			news
+			sportsManage,
+			peManage
 		},
 		data() {
 			return {
@@ -86,8 +89,8 @@
 		// 分享小程序
 		onShareAppMessage(res) {
 			return {
-				title: '学技术·找案例，快来「前端铺子」吧！',
-				imageUrl: 'https://cdn.zhoukaiwen.com/qdpz_share.jpg',
+				title: '',
+				imageUrl: '',
 			};
 		},
 		onLoad(option){

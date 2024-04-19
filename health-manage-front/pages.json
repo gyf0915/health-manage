@@ -6,10 +6,9 @@
 		{
 			"path": "pages/index/tabbar",
 			"style": {
-				"navigationBarTitleText": "前端铺子",
+				"navigationBarTitleText": "个人健康管理系统",
 				"navigationStyle": "custom"
 			}
-			
 		},
 		{
 			"path": "pages/index/index",
@@ -33,6 +32,12 @@
 			"path": "pages/index/peManage/index",
 			"style": {
 				"navigationBarTitleText": "体检管理"
+			}
+		},
+		{
+			"path": "pages/index/userCenter/index",
+			"style": {
+				"navigationBarTitleText": "用户中心"
 			}
 		}
 	],

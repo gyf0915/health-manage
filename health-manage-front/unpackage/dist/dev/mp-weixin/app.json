@@ -4,7 +4,8 @@
     "pages/index/index",
     "pages/index/dietManage/index",
     "pages/index/sportsManage/index",
-    "pages/index/peManage/index"
+    "pages/index/peManage/index",
+    "pages/index/userCenter/index"
   ],
   "subPackages": [],
   "window": {

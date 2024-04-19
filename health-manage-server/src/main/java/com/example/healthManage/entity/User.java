@@ -18,6 +18,16 @@ public class User implements Serializable {
 
     private String email;
 
+    private String height;
+
+    private String weight;
+
+    private String age;
+
+    private String sex;
+
+    private String userLevel;
+
     private Date createTime;
 
     private Date updateTime;

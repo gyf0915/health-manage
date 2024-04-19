@@ -9,6 +9,7 @@ import java.util.List;
 public interface DietMapper {
 
     List<Diet> list(String loginId);
+
     void insert(Diet diet);
 
     void update(Diet diet);

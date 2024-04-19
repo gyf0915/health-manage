@@ -9,7 +9,6 @@
 				:class="'nav-li bg-menu' + (index+1)" v-for="(item, index) in menuList" :key="index">
 				<view class="nav-name">{{item.name}}</view>
 			</navigator>
-			<!-- hover-class='none' -->
 		</view>
 	</view>
 </template>
@@ -50,6 +49,13 @@
 				uni.navigateTo({
 					url:'/pages/index/' + menu.title + '/index'
 				})
+				// if (menu.title !== 'userCenter') {
+				// 	uni.navigateTo({
+				// 		url:'/pages/index/' + menu.title + '/index'
+				// 	})
+				// } else {
+					
+				// }
 			}
 		}
 	};

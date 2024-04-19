@@ -28,14 +28,14 @@ public class UserController {
     @PostMapping("/update")
     public RestResult<?> update(@RequestBody User user) throws Exception {
         log.info("新增用户：{}", user);
-        userService.update(user);
-        return RestResult.T();
+
+        return RestResult.T(userService.update(user));
     }
 
-    @DeleteMapping("/delete/{id}")
-    public RestResult<?> delete(@PathVariable Integer id) throws Exception {
-        log.info("删除用户");
-        userService.deleteById(id);
+    @DeleteMapping("/delete/{loginId}")
+    public RestResult<?> delete(@PathVariable String loginId) throws Exception {
+        log.info("注销用户");
+        userService.deleteByLoginId(loginId);
         return RestResult.T();
     }
 
@@ -46,8 +46,8 @@ public class UserController {
     }
 
     @PostMapping("/loginByWX")
-    public RestResult<?> loginByWX(@PathVariable String loginId) {
-        log.info("获取用户信息，loginId为：{}", loginId);
-        return RestResult.T(userService.detail(loginId));
+    public RestResult<?> loginByWX(@RequestBody User user) {
+        log.info("微信登录，loginId为：{}", user.getLoginId());
+        return RestResult.T(userService.loginByWX(user));
     }
 }

@@ -5,80 +5,51 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="6276e0e4-6b9c-4d89-abab-2ce8c4dbb050" name="Changes" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/health-manage-front/App.vue" beforeDir="false" afterPath="$PROJECT_DIR$/health-manage-front/App.vue" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/health-manage-front/common/amap-wx.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/health-manage-front/common/classify.data.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/health-manage-front/common/geocode-utils.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/health-manage-front/common/projectData.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/health-manage-front/common/qqmap-wx-jssdk.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/health-manage-front/common/request.js" beforeDir="false" afterPath="$PROJECT_DIR$/health-manage-front/common/request.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/health-manage-front/common/seat-data.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/health-manage-front/common/signature.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/health-manage-front/common/uiImg.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/health-manage-front/main.js" beforeDir="false" afterPath="$PROJECT_DIR$/health-manage-front/main.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/health-manage-front/pages.json" beforeDir="false" afterPath="$PROJECT_DIR$/health-manage-front/pages.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/health-manage-front/pages/colorui/components/cu-custom.vue" beforeDir="false" afterPath="$PROJECT_DIR$/health-manage-front/pages/colorui/components/cu-custom.vue" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/health-manage-front/pages/index/index.vue" beforeDir="false" afterPath="$PROJECT_DIR$/health-manage-front/pages/index/index.vue" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/health-manage-front/pages/index/me.vue" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/health-manage-front/pages/index/news.vue" beforeDir="false" afterPath="$PROJECT_DIR$/health-manage-front/pages/index/news.vue" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/health-manage-front/pages/index/main.vue" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/health-manage-front/pages/index/news.vue" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/health-manage-front/pages/index/search.vue" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/health-manage-front/pages/index/tabbar.vue" beforeDir="false" afterPath="$PROJECT_DIR$/health-manage-front/pages/index/tabbar.vue" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/health-manage-front/uni.scss" beforeDir="false" afterPath="$PROJECT_DIR$/health-manage-front/uni.scss" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/health-manage-front/unpackage/dist/dev/.sourcemap/mp-weixin/common/main.js.map" beforeDir="false" afterPath="$PROJECT_DIR$/health-manage-front/unpackage/dist/dev/.sourcemap/mp-weixin/common/main.js.map" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/health-manage-front/unpackage/dist/dev/.sourcemap/mp-weixin/common/runtime.js.map" beforeDir="false" afterPath="$PROJECT_DIR$/health-manage-front/unpackage/dist/dev/.sourcemap/mp-weixin/common/runtime.js.map" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/health-manage-front/unpackage/dist/dev/.sourcemap/mp-weixin/common/vendor.js.map" beforeDir="false" afterPath="$PROJECT_DIR$/health-manage-front/unpackage/dist/dev/.sourcemap/mp-weixin/common/vendor.js.map" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/health-manage-front/unpackage/dist/dev/.sourcemap/mp-weixin/pages/index/index.js.map" beforeDir="false" afterPath="$PROJECT_DIR$/health-manage-front/unpackage/dist/dev/.sourcemap/mp-weixin/pages/index/index.js.map" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/health-manage-front/unpackage/dist/dev/.sourcemap/mp-weixin/pages/index/main.js.map" beforeDir="false" afterPath="$PROJECT_DIR$/health-manage-front/unpackage/dist/dev/.sourcemap/mp-weixin/pages/index/main.js.map" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/health-manage-front/unpackage/dist/dev/.sourcemap/mp-weixin/pages/index/me.js.map" beforeDir="false" afterPath="$PROJECT_DIR$/health-manage-front/unpackage/dist/dev/.sourcemap/mp-weixin/pages/index/me.js.map" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/health-manage-front/unpackage/dist/dev/.sourcemap/mp-weixin/pages/index/news.js.map" beforeDir="false" afterPath="$PROJECT_DIR$/health-manage-front/unpackage/dist/dev/.sourcemap/mp-weixin/pages/index/news.js.map" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/health-manage-front/unpackage/dist/dev/.sourcemap/mp-weixin/pages/index/search.js.map" beforeDir="false" afterPath="$PROJECT_DIR$/health-manage-front/unpackage/dist/dev/.sourcemap/mp-weixin/pages/index/search.js.map" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/health-manage-front/unpackage/dist/dev/.sourcemap/mp-weixin/pages/index/tabbar.js.map" beforeDir="false" afterPath="$PROJECT_DIR$/health-manage-front/unpackage/dist/dev/.sourcemap/mp-weixin/pages/index/tabbar.js.map" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/health-manage-front/unpackage/dist/dev/mp-weixin/app.js" beforeDir="false" afterPath="$PROJECT_DIR$/health-manage-front/unpackage/dist/dev/mp-weixin/app.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/health-manage-front/unpackage/dist/dev/mp-weixin/app.json" beforeDir="false" afterPath="$PROJECT_DIR$/health-manage-front/unpackage/dist/dev/mp-weixin/app.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/health-manage-front/unpackage/dist/dev/mp-weixin/app.wxss" beforeDir="false" afterPath="$PROJECT_DIR$/health-manage-front/unpackage/dist/dev/mp-weixin/app.wxss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/health-manage-front/unpackage/dist/dev/mp-weixin/common/main.js" beforeDir="false" afterPath="$PROJECT_DIR$/health-manage-front/unpackage/dist/dev/mp-weixin/common/main.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/health-manage-front/unpackage/dist/dev/mp-weixin/common/main.wxss" beforeDir="false" afterPath="$PROJECT_DIR$/health-manage-front/unpackage/dist/dev/mp-weixin/common/main.wxss" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/health-manage-front/unpackage/dist/dev/mp-weixin/common/runtime.js" beforeDir="false" afterPath="$PROJECT_DIR$/health-manage-front/unpackage/dist/dev/mp-weixin/common/runtime.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/health-manage-front/unpackage/dist/dev/mp-weixin/common/vendor.js" beforeDir="false" afterPath="$PROJECT_DIR$/health-manage-front/unpackage/dist/dev/mp-weixin/common/vendor.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/health-manage-front/unpackage/dist/dev/mp-weixin/pages/colorui/components/cu-custom.js" beforeDir="false" afterPath="$PROJECT_DIR$/health-manage-front/unpackage/dist/dev/mp-weixin/pages/colorui/components/cu-custom.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/health-manage-front/unpackage/dist/dev/mp-weixin/pages/colorui/components/cu-custom.json" beforeDir="false" afterPath="$PROJECT_DIR$/health-manage-front/unpackage/dist/dev/mp-weixin/pages/colorui/components/cu-custom.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/health-manage-front/unpackage/dist/dev/mp-weixin/pages/colorui/components/cu-custom.wxml" beforeDir="false" afterPath="$PROJECT_DIR$/health-manage-front/unpackage/dist/dev/mp-weixin/pages/colorui/components/cu-custom.wxml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/health-manage-front/unpackage/dist/dev/mp-weixin/pages/index/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/health-manage-front/unpackage/dist/dev/mp-weixin/pages/index/index.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/health-manage-front/unpackage/dist/dev/mp-weixin/pages/index/index.json" beforeDir="false" afterPath="$PROJECT_DIR$/health-manage-front/unpackage/dist/dev/mp-weixin/pages/index/index.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/health-manage-front/unpackage/dist/dev/mp-weixin/pages/index/index.wxml" beforeDir="false" afterPath="$PROJECT_DIR$/health-manage-front/unpackage/dist/dev/mp-weixin/pages/index/index.wxml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/health-manage-front/unpackage/dist/dev/mp-weixin/pages/index/index.wxss" beforeDir="false" afterPath="$PROJECT_DIR$/health-manage-front/unpackage/dist/dev/mp-weixin/pages/index/index.wxss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/health-manage-front/unpackage/dist/dev/mp-weixin/pages/index/main.js" beforeDir="false" afterPath="$PROJECT_DIR$/health-manage-front/unpackage/dist/dev/mp-weixin/pages/index/main.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/health-manage-front/unpackage/dist/dev/mp-weixin/pages/index/main.json" beforeDir="false" afterPath="$PROJECT_DIR$/health-manage-front/unpackage/dist/dev/mp-weixin/pages/index/main.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/health-manage-front/unpackage/dist/dev/mp-weixin/pages/index/main.wxss" beforeDir="false" afterPath="$PROJECT_DIR$/health-manage-front/unpackage/dist/dev/mp-weixin/pages/index/main.wxss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/health-manage-front/unpackage/dist/dev/mp-weixin/pages/index/me.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/health-manage-front/unpackage/dist/dev/mp-weixin/pages/index/me.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/health-manage-front/unpackage/dist/dev/mp-weixin/pages/index/me.wxml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/health-manage-front/unpackage/dist/dev/mp-weixin/pages/index/me.wxss" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/health-manage-front/unpackage/dist/dev/mp-weixin/pages/index/news.js" beforeDir="false" afterPath="$PROJECT_DIR$/health-manage-front/unpackage/dist/dev/mp-weixin/pages/index/news.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/health-manage-front/unpackage/dist/dev/mp-weixin/pages/index/news.json" beforeDir="false" afterPath="$PROJECT_DIR$/health-manage-front/unpackage/dist/dev/mp-weixin/pages/index/news.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/health-manage-front/unpackage/dist/dev/mp-weixin/pages/index/news.wxml" beforeDir="false" afterPath="$PROJECT_DIR$/health-manage-front/unpackage/dist/dev/mp-weixin/pages/index/news.wxml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/health-manage-front/unpackage/dist/dev/mp-weixin/pages/index/news.wxss" beforeDir="false" afterPath="$PROJECT_DIR$/health-manage-front/unpackage/dist/dev/mp-weixin/pages/index/news.wxss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/health-manage-front/unpackage/dist/dev/mp-weixin/pages/index/search.js" beforeDir="false" afterPath="$PROJECT_DIR$/health-manage-front/unpackage/dist/dev/mp-weixin/pages/index/search.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/health-manage-front/unpackage/dist/dev/mp-weixin/pages/index/search.json" beforeDir="false" afterPath="$PROJECT_DIR$/health-manage-front/unpackage/dist/dev/mp-weixin/pages/index/search.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/health-manage-front/unpackage/dist/dev/mp-weixin/pages/index/search.wxss" beforeDir="false" afterPath="$PROJECT_DIR$/health-manage-front/unpackage/dist/dev/mp-weixin/pages/index/search.wxss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/health-manage-front/unpackage/dist/dev/mp-weixin/pages/index/main.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/health-manage-front/unpackage/dist/dev/mp-weixin/pages/index/main.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/health-manage-front/unpackage/dist/dev/mp-weixin/pages/index/main.wxml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/health-manage-front/unpackage/dist/dev/mp-weixin/pages/index/main.wxss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/health-manage-front/unpackage/dist/dev/mp-weixin/pages/index/news.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/health-manage-front/unpackage/dist/dev/mp-weixin/pages/index/news.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/health-manage-front/unpackage/dist/dev/mp-weixin/pages/index/news.wxml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/health-manage-front/unpackage/dist/dev/mp-weixin/pages/index/news.wxss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/health-manage-front/unpackage/dist/dev/mp-weixin/pages/index/search.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/health-manage-front/unpackage/dist/dev/mp-weixin/pages/index/search.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/health-manage-front/unpackage/dist/dev/mp-weixin/pages/index/search.wxml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/health-manage-front/unpackage/dist/dev/mp-weixin/pages/index/search.wxss" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/health-manage-front/unpackage/dist/dev/mp-weixin/pages/index/tabbar.js" beforeDir="false" afterPath="$PROJECT_DIR$/health-manage-front/unpackage/dist/dev/mp-weixin/pages/index/tabbar.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/health-manage-front/unpackage/dist/dev/mp-weixin/pages/index/tabbar.json" beforeDir="false" afterPath="$PROJECT_DIR$/health-manage-front/unpackage/dist/dev/mp-weixin/pages/index/tabbar.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/health-manage-front/unpackage/dist/dev/mp-weixin/pages/index/tabbar.wxml" beforeDir="false" afterPath="$PROJECT_DIR$/health-manage-front/unpackage/dist/dev/mp-weixin/pages/index/tabbar.wxml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/health-manage-front/unpackage/dist/dev/mp-weixin/pages/index/tabbar.wxss" beforeDir="false" afterPath="$PROJECT_DIR$/health-manage-front/unpackage/dist/dev/mp-weixin/pages/index/tabbar.wxss" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/health-manage-front/unpackage/dist/dev/mp-weixin/project.config.json" beforeDir="false" afterPath="$PROJECT_DIR$/health-manage-front/unpackage/dist/dev/mp-weixin/project.config.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/health-manage-front/unpackage/dist/dev/mp-weixin/project.private.config.json" beforeDir="false" afterPath="$PROJECT_DIR$/health-manage-front/unpackage/dist/dev/mp-weixin/project.private.config.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/health-manage-front/uview-ui/components/u-button/u-button.vue" beforeDir="false" afterPath="$PROJECT_DIR$/health-manage-front/uview-ui/components/u-button/u-button.vue" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/health-manage-front/uview-ui/components/u-parse/libs/handler.wxs" beforeDir="false" afterPath="$PROJECT_DIR$/health-manage-front/uview-ui/components/u-parse/libs/handler.wxs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/health-manage-front/uview-ui/libs/function/debounce.js" beforeDir="false" afterPath="$PROJECT_DIR$/health-manage-front/uview-ui/libs/function/debounce.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/health-manage-front/uview-ui/libs/function/guid.js" beforeDir="false" afterPath="$PROJECT_DIR$/health-manage-front/uview-ui/libs/function/guid.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/health-manage-front/uview-ui/libs/function/random.js" beforeDir="false" afterPath="$PROJECT_DIR$/health-manage-front/uview-ui/libs/function/random.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/health-manage-front/uview-ui/libs/function/randomArray.js" beforeDir="false" afterPath="$PROJECT_DIR$/health-manage-front/uview-ui/libs/function/randomArray.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/health-manage-front/uview-ui/libs/function/route.js" beforeDir="false" afterPath="$PROJECT_DIR$/health-manage-front/uview-ui/libs/function/route.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/health-manage-front/uview-ui/libs/function/toast.js" beforeDir="false" afterPath="$PROJECT_DIR$/health-manage-front/uview-ui/libs/function/toast.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/health-manage-front/uview-ui/libs/function/trim.js" beforeDir="false" afterPath="$PROJECT_DIR$/health-manage-front/uview-ui/libs/function/trim.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/health-manage-front/uview-ui/libs/function/type2icon.js" beforeDir="false" afterPath="$PROJECT_DIR$/health-manage-front/uview-ui/libs/function/type2icon.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/package-lock.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/health-manage-server/build.gradle" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/health-manage-server/dbscript/createTable.sql" beforeDir="false" afterPath="$PROJECT_DIR$/health-manage-server/dbscript/createTable.sql" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/health-manage-server/src/main/java/com/example/healthManage/controller/UserController.java" beforeDir="false" afterPath="$PROJECT_DIR$/health-manage-server/src/main/java/com/example/healthManage/controller/UserController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/health-manage-server/src/main/java/com/example/healthManage/entity/User.java" beforeDir="false" afterPath="$PROJECT_DIR$/health-manage-server/src/main/java/com/example/healthManage/entity/User.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/health-manage-server/src/main/java/com/example/healthManage/mapper/DietMapper.java" beforeDir="false" afterPath="$PROJECT_DIR$/health-manage-server/src/main/java/com/example/healthManage/mapper/DietMapper.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/health-manage-server/src/main/java/com/example/healthManage/service/UserService.java" beforeDir="false" afterPath="$PROJECT_DIR$/health-manage-server/src/main/java/com/example/healthManage/service/UserService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/health-manage-server/src/main/java/com/example/healthManage/service/impl/UserServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/health-manage-server/src/main/java/com/example/healthManage/service/impl/UserServiceImpl.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/health-manage-server/src/main/resources/Mapper/DietMapper.xml" beforeDir="false" afterPath="$PROJECT_DIR$/health-manage-server/src/main/resources/Mapper/DietMapper.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/health-manage-server/src/main/resources/Mapper/UserMapper.xml" beforeDir="false" afterPath="$PROJECT_DIR$/health-manage-server/src/main/resources/Mapper/UserMapper.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -99,26 +70,26 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "RunOnceActivity.OpenProjectViewOnStart": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "git-widget-placeholder": "main",
-    "kotlin-language-version-configured": "true",
-    "last_opened_file_path": "H:/个人/health-manage/health-manage-server",
-    "node.js.detected.package.eslint": "true",
-    "node.js.detected.package.tslint": "true",
-    "node.js.selected.package.eslint": "(autodetect)",
-    "node.js.selected.package.tslint": "(autodetect)",
-    "nodejs_package_manager_path": "npm",
-    "vue.rearranger.settings.migration": "true"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;main&quot;,
+    &quot;kotlin-language-version-configured&quot;: &quot;true&quot;,
+    &quot;last_opened_file_path&quot;: &quot;H:/个人/health-manage/health-manage-server&quot;,
+    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
+    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
+    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
+    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
+    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
+    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
   },
-  "keyToStringList": {
-    "com.intellij.ide.scratch.ScratchImplUtil$2/New Scratch File": [
-      "JAVA"
+  &quot;keyToStringList&quot;: {
+    &quot;com.intellij.ide.scratch.ScratchImplUtil$2/New Scratch File&quot;: [
+      &quot;JAVA&quot;
     ]
   }
-}]]></component>
+}</component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
@@ -130,6 +101,7 @@
       <workItem from="1712088308914" duration="176000" />
       <workItem from="1712504314843" duration="661000" />
       <workItem from="1712757244337" duration="1575000" />
+      <workItem from="1713552517738" duration="31000" />
     </task>
     <servers />
   </component>

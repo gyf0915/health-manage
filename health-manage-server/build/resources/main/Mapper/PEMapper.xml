@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="com.example.healthManage.mapper.PhysicalExaminationReportMapper">
+    <insert id="insert">
+        insert into health_manage.physical_examination_report(id, login_id, report_date, report_content, health_analysis, suggestion)
+        values(#{id}, #{loginId}, #{reportDate}, #{reportContent}, #{healthAnalysis}, #{suggestion})
+    </insert>
+    <update id="update">
+        update health_manage.physical_examination_report set report_date = #{reportDate}, report_content = #{reportContent}, health_analysis = #{healthAnalysis}, suggestion = #{suggestion} where id = #{id}
+    </update>
+    <delete id="deleteById">
+        delete from health_manage.physical_examination_report where id = #{id}
+    </delete>
+    <select id="selectById" resultType="com.example.healthManage.entity.PhysicalExaminationReport">
+        select id, login_id as loginId, report_date as reportDate, report_content as reportContent, health_analysis as healthAnalysis, suggestion as suggestion from health_manage.physical_examination_report where id = #{id}
+    </select>
+    <select id="selectByLoginId" resultType="com.example.healthManage.entity.PhysicalExaminationReport">
+        select id, login_id as loginId, report_date as reportDate, report_content as reportContent, health_analysis as healthAnalysis, suggestion as suggestion from health_manage.physical_examination_report where login_id = #{loginId}
+    </select>
+    <select id="list" resultType="com.example.healthManage.entity.PhysicalExaminationReport">
+        select id, login_id as loginId, report_date as reportDate, report_content as reportContent, health_analysis as healthAnalysis, suggestion as suggestion from health_manage.physical_examination_report where login_id = #{loginId}
+    </select>
+</mapper>

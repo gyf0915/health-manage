@@ -6,9 +6,11 @@ public interface UserService {
 
     void insert(User user);
 
-    void update(User user) throws Exception;
+    User update(User user) throws Exception;
 
-    void deleteById(Integer id) throws Exception;
+    void deleteByLoginId(String id) throws Exception;
 
     User detail(String loginId);
+
+    User loginByWX(User user);
 }
